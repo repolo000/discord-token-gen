@@ -86,7 +86,7 @@ while True:
     time.sleep(random.randint(1,2))
     print(f'{datetime.datetime.now()}ㅣ[wasreal token gen] account: {email} l {password} l {fake_token()}')
     time.sleep(random.randint(3,4))
-    print(f'{datetime.datetime.now()}ㅣ[wasreal token gen] solve in tokens.txt !')
+    print(f'{datetime.datetime.now()}ㅣ[wasreal token gen] save in tokens.txt !')
     with open('tokens.txt', 'a') as f:
         f.write(f'{email}:{password}:{fake_token()}\n')
     print(f'{datetime.datetime.now()}ㅣ[wasreal token gen] done!')
