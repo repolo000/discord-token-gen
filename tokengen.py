@@ -53,7 +53,7 @@ def fake_email_password():
     return result
 
 os.system('cls')
-os.system(f'title wasreal token generator')
+os.system(f'title wasreal.xyz free token generator')
 while True:
     os.system(f'color {random.randint(1,9)}')
     delay = random.randint(1, 5)
